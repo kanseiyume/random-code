@@ -20,7 +20,7 @@ def roulette():
         time.sleep(2)
         round = random.randint(1, 6)
         print("pick a number between 1 and 6")
-        print("the live is currently chambered at number " + str(round))
+        # print("the live is currently chambered at number " + str(round))
         choice = input()
         if int(choice) > 6 or int(choice) < 1:
             print("you're not very good at following instructions, are you?")
