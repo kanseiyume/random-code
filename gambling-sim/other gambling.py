@@ -147,7 +147,6 @@ def roll():
     print(f"hidden x{hidden}")
     print(f"failed x{failed}")
     print(f"complete x{complete}")
-    print(f"rarest drop out of {simulation} rolls: {max(returns, key=returns.count)}")
     input()
     print("Press enter to spin again, or type 'exit' to leave.")
 
