@@ -82,6 +82,7 @@ def roll():
         failed = returns.count("failed")
         complete = returns.count("complete")
         
+        
     print(f"common x{commons}")
     print(f"uncommon x{uncommons}")
     print(f"rare x{rares}")
@@ -146,6 +147,7 @@ def roll():
     print(f"hidden x{hidden}")
     print(f"failed x{failed}")
     print(f"complete x{complete}")
+    print(f"rarest drop out of {simulation} rolls: {max(returns, key=returns.count)}")
     input()
     print("Press enter to spin again, or type 'exit' to leave.")
 
